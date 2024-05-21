@@ -1,5 +1,6 @@
 .colaborador {
     width: 280px;
+    position: relative;
 }
 
 .colaborador .cabecalho {
@@ -35,3 +36,23 @@
     color: #212121;
     padding: 0 16px;
 }
+
+.botao-Deletar{
+    color: #646161;
+    position: absolute;
+    right: -16px;
+    top: -17px;
+    font-size: 25px;
+}
+.botao-Deletar:hover{
+    font-size: 28px;
+    color: #212121;
+    transition: 0.5s;
+
+}
+
+.favoritar{
+    margin-top: 15px;
+    font-size: 23px;
+}
+

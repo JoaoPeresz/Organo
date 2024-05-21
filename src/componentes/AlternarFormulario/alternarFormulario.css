@@ -1,0 +1,14 @@
+.botao-alternar{
+    font-size: 50px;
+    color: #6278F7;
+    position: absolute;
+    right: 10px;
+    top: 30px;
+}
+
+.botao-alternar:hover{
+    color: #3141b2;
+    font-size: 55px;
+    transition: 0.5s;
+    cursor: pointer;
+}

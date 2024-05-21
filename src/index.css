@@ -8,6 +8,7 @@ body {
 
 .times {
   text-align: center;
+  position: relative;
 }
 
 h1 {
@@ -21,4 +22,14 @@ h1 {
 
 h1, h2 {
   font-family: 'Prata', serif;
+}
+
+
+.estado{
+  color: #6278F7;
+  font-size: 50px;
+  position: absolute;
+  right: 100px;
+  top: 30px;
+
 }
