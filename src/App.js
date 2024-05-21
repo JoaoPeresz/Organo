@@ -275,7 +275,7 @@ function App() {
               colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
               aoDeletar={deletarColaborador}
               mudarCor={mudarCorDoTime}
-              aoFavoritar={resolverFavorito}
+              aoFav"oritar={resolverFavorito}
           />
         )}
       </section>
