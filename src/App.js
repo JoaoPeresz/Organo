@@ -12,7 +12,7 @@ function App() {
   const [times, setTimes] = useState  ([
     {
       id: uuidv4(),
-      nome: 'Programação',
+      nome: 'Programação a objetos',
       cor: '#57C278'
     },
     {
