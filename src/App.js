@@ -12,7 +12,7 @@ function App() {
   const [times, setTimes] = useState  ([
     {
       id: uuidv4(),
-      nome: 'Programação',
+      nome: 'Programação a objetos',
       cor: '#57C278'
     },
     {
@@ -275,7 +275,7 @@ function App() {
               colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
               aoDeletar={deletarColaborador}
               mudarCor={mudarCorDoTime}
-              aoFav"oritar={resolverFavorito}
+              aoFavoritar={resolverFavorito}
           />
         )}
       </section>
