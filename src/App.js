@@ -22,8 +22,8 @@ function App() {
     },
     {
       id: uuidv4(),
-      nome: 'Data Science',
-      cor: '#A6D157'
+      nome: 'Ciencia de Dados',
+      cor: '#0033ff'
     },
     {
       id: uuidv4(),
@@ -275,7 +275,7 @@ function App() {
               colaboradores={colaboradores.filter(colaborador => colaborador.time === time.nome)}
               aoDeletar={deletarColaborador}
               mudarCor={mudarCorDoTime}
-              aoFav"oritar={resolverFavorito}
+              aoFavoritar={resolverFavorito}
           />
         )}
       </section>
