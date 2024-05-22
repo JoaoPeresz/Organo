@@ -2,14 +2,21 @@
     background: #6278F7;
     border-radius: 10px;
     font-weight: 700;
+<<<<<<< HEAD
     font-size: 19px;
+=======
+    font-size: 20px;
+>>>>>>> 8f471bb11837b13ca8d5d8ef19aa4068f7c3cbec
     padding: 32px;
     color: #FFF;
     cursor: pointer;
-    font-weight: bold;
     border: none;
 }
 
 .botao:hover {
-    color: #95FFD4;
+    background-color: #2134b2;
+    color: yellow;
+    border: 2px solid yellow;
+    font-size: 23px;
+    transition: 1s;
 }

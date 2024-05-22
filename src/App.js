@@ -12,7 +12,7 @@ function App() {
   const [times, setTimes] = useState  ([
     {
       id: uuidv4(),
-      nome: 'Programação a objetos',
+      nome: 'Programação',
       cor: '#57C278'
     },
     {
@@ -22,8 +22,8 @@ function App() {
     },
     {
       id: uuidv4(),
-      nome: 'Ciencia de Dados',
-      cor: '#0033ff'
+      nome: 'Data Science',
+      cor: '#A6D157'
     },
     {
       id: uuidv4(),
@@ -261,7 +261,11 @@ function App() {
 
       <section className="times">
 
+<<<<<<< HEAD
         <h1>Times que possuimos:</h1>
+=======
+
+>>>>>>> 8f471bb11837b13ca8d5d8ef19aa4068f7c3cbec
         <AlternarFormulario
             mudandoForm={mudandoForm}
         />
