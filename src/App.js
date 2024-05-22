@@ -220,9 +220,7 @@ function App() {
 
   const [colaboradores, setColaboradores] = useState(inicial)
 
-  function deletarColaborador(id) {
-      setColaboradores(colaboradores.filter(colaborador => colaborador.id !== id))
-  }
+  function deletarColaborador(id) {setColaboradores(colaboradores.filter(colaborador => colaborador.id !== id))}
 
   function mudarCorDoTime(cor, id){   //  chamamos a função e passamos como parametro cor e nome
       setTimes(times.map(time=>{        //  aqui nos vamos alterar o time atraves do set
