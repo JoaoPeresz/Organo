@@ -22,8 +22,8 @@ function App() {
     },
     {
       id: uuidv4(),
-      nome: 'Data Science',
-      cor: '#A6D157'
+      nome: 'Ciber-Security',
+      cor: '#235d03'
     },
     {
       id: uuidv4(),
