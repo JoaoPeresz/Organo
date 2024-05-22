@@ -237,7 +237,8 @@ function App() {
 
   function resolverFavorito (id) {
     setColaboradores(colaboradores.map(colaborador =>{
-      if (colaborador.id === id) colaborador.favorito = !colaborador.favorito
+      if (colaborador.id === id)
+        colaborador.favorito = !colaborador.favorito
       return colaborador
     }))
   }
@@ -262,11 +263,9 @@ function App() {
 
       <section className="times">
 
-<<<<<<< HEAD
         <h1>Times que possuimos:</h1>
-=======
+        <h1> Confira a seguir: </h1>
 
->>>>>>> 8f471bb11837b13ca8d5d8ef19aa4068f7c3cbec
         <AlternarFormulario
             mudandoForm={mudandoForm}
         />
