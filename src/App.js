@@ -245,8 +245,9 @@ function App() {
   const [estadoForm, setEstadoForm] = useState(true)
 
   function mudandoForm () {
-
-    setEstadoForm(!estadoForm)
+    setEstadoForm(
+     !estadoForm
+    )
   }
 
   return (
