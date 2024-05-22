@@ -22,8 +22,8 @@ function App() {
     },
     {
       id: uuidv4(),
-      nome: 'Ciber-Security',
-      cor: '#235d03'
+      nome: 'Data Science',
+      cor: '#A6D157'
     },
     {
       id: uuidv4(),
@@ -263,7 +263,7 @@ function App() {
 
       <section className="times">
 
-        <h1>Minha organização</h1>
+
         <AlternarFormulario
             mudandoForm={mudandoForm}
         />
