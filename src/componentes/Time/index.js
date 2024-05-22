@@ -5,8 +5,6 @@ import hexToRgba from 'hex-to-rgba';
 const Time = ({ time, colaboradores, aoDeletar, mudarCor, aoFavoritar }) => {
 
     return (
-
-
         colaboradores.length > 0  &&
         <section
             className='time'
