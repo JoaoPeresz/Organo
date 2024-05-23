@@ -8,8 +8,6 @@ const Colaborador = ({ colaborador, corDeFundo, aoDeletar, aoFavoritar }) => {
         aoFavoritar(colaborador.id)
     }
 
-    console.log(colaborador)
-
     return (
         <div className="colaborador">
             <IoCloseCircleOutline
