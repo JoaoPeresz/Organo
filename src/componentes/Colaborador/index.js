@@ -12,14 +12,14 @@ const Colaborador = ({ colaborador, corDeFundo, aoDeletar, aoFavoritar }) => {
 
     return (
         <div className="colaborador">
-
             <IoCloseCircleOutline
                     className='botao-Deletar'
                     onClick={() => aoDeletar(colaborador.id)}
-                />
+            />
             <div className="cabecalho" style={{backgroundColor: corDeFundo}}>
                 <img src={colaborador.imagem} alt={colaborador.nome}/>
             </div>
+
             <div className="rodape">
                 <h4>{colaborador.nome}</h4>
                 <h5>{colaborador.cargo}</h5>
